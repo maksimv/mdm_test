@@ -1,11 +1,17 @@
-<!DOCTYPE html>Add commentMore actions
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>MDM Terms of Use</title>
+    <script>
+        function acceptTerms() {
+            window.location.href = "https://maksimv.github.io/mdm_test/mdm_discovery.html"; // Replace with your actual MDM Discovery URL
+        }
+    </script>
 </head>
 <body>
     <h1>Mobile Device Management Terms of Use</h1>
-    <p>By enrolling your device, you agree to comply with the organization's Mobile Device Management (MDM) policies. These policies may include device configuration, security enforcement, and monitoring to ensure compliance with corporate standards.</p>
+    <p>By enrolling your device, you agree to comply with your organization's Mobile Device Management policies.</p>
+    <button onclick="acceptTerms()">I Accept</button>
 </body>
 </html>
