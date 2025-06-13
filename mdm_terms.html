@@ -1,12 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>MDM Terms of Use</title>
+    <script>
+        function acceptTerms() {
+            alert("You have accepted the terms of use."); 
+            // Instead of redirecting, you can just display the confirmation
+        }
+    </script>
 </head>
 <body>
     <h1>Mobile Device Management Terms of Use</h1>
     <p>By enrolling your device, you agree to comply with the organization's Mobile Device Management (MDM) policies. These policies may include device configuration, security enforcement, and monitoring to ensure compliance with corporate standards.</p>
+
+    <button onclick="acceptTerms()">Accept & Continue</button>
 </body>
 </html>
